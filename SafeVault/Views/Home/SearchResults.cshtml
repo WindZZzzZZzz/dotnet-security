@@ -1,0 +1,19 @@
+@model List<User>
+
+<table>
+    <thead>
+        <tr>
+            <th>Username</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.Username</td> <!-- Razor automatically encodes this -->
+                <td>@user.Email</td>    <!-- Razor automatically encodes this -->
+            </tr>
+        }
+    </tbody>
+</table>
