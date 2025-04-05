@@ -13,6 +13,6 @@ Dotnet Security is a secure web application built with ASP.NET Core. It demonstr
 ## Technologies Used
 
 - **Backend**: ASP.NET Core MVC
-- **Database**: MySQL
+- **Database**: SQL Server
 - **Authentication**: BCrypt for password hashing
 - **Frontend**: Razor Views with Bootstrap for styling
